@@ -1,6 +1,4 @@
 import React from 'react';
-// import {Button} from 'antd';
-// import {PlayCircleOutlined} from '@ant-design/icons';
 
 export const StartButton = ({ onClick }) => {
   return (
@@ -14,7 +12,6 @@ export const StartButton = ({ onClick }) => {
           fontWeight: 'bold',
           color: '#fff',
         }}
-        // icon={<PlayCircleOutlined />}
         onClick={onClick}
       >
         Start

@@ -31,15 +31,15 @@ const Home = () => {
   const [filled, setFilled] = useState([]);
   const [finished, setFinished] = useState(false);
 
-  const algorithms = [
-    'Bubble Sort',
-    'Merge Sort',
-    'Insertion Sort',
-    'Selection Sort',
-    'QuickSort (L)',
-    'QuickSort (LR)',
-    'Inplace Merge Sort',
-  ];
+  // const algorithms = [
+  //   'Bubble Sort',
+  //   'Merge Sort',
+  //   'Insertion Sort',
+  //   'Selection Sort',
+  //   'QuickSort (L)',
+  //   'QuickSort (LR)',
+  //   'Inplace Merge Sort',
+  // ];
 
   const onRandomize = () => {
     if (isVisualizing) return;
@@ -200,7 +200,7 @@ const Home = () => {
       >
         {randomizedArray.map((item, index) => {
           const height = (item / maxItem) * 100;
-          const width = (1 / randomizedArray.length) * 100;
+          // const width = (1 / randomizedArray.length) * 100;
           return (
             <div
               key={index}
